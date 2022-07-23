@@ -60,11 +60,11 @@ public:
 	ChamberMetaEngineDetection() : AdvancedMetaEngineDetection(Chamber::gameDescriptions, sizeof(ADGameDescription), Chamber::ChamberGames) {
 	}
 
-	const char *getEngineId() const override {
+	const char *getName() const override {
 		return "chamber";
 	}
 
-	const char *getName() const override {
+	const char *getEngineName() const override {
 		return "chamber";
 	}
 
